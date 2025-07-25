@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geia | Phygital Promotions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+      color: #f8fafc;
+      line-height: 1.6;
+    }
+    nav {
+      background-color: #1f2937;
+      color: white;
+      padding: 15px 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    header, section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    header {
+      background: linear-gradient(to right, #1e3a8a, #3b82f6);
+      color: white;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header::before {
+      content: "GEIA";
+      display: block;
+      font-size: 1.25rem;
+      letter-spacing: 4px;
+      font-weight: bold;
+      color: #93c5fd;
+      margin-bottom: 20px;
+    }
+    header p {
+      font-size: 1.25rem;
+      margin-bottom: 30px;
+    }
+    .cta-buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background-color: white;
+      color: #1e3a8a;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .cta-buttons a:hover {
+      background-color: #dbeafe;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .value-highlights, .stats-section, .steps {
+      display: grid;
+      gap: 20px;
+    }
+    .highlight, .step, .stat {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .highlight span, .stat span {
+      font-size: 1.5rem;
+      display: block;
+      color: #60a5fa;
+      margin-bottom: 8px;
+    }
+    footer {
+      background-color: #1f2937;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    .btn-section {
+      margin-top: 30px;
+    }
+    .contact-section {
+      background-color: #e2e8f0;
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+      color: #1f2937;
+    }
+    .contact-section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .contact-section form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .contact-section input,
+    .contact-section textarea {
+      padding: 10px;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    .contact-section button {
+      background-color: #1e3a8a;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .contact-section button:hover {
+      background-color: #3b82f6;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#introduction">Introduction</a>
+    <a href="#phygital">Phygital Media</a>
+    <a href="#how">How It Works</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+
+  <header>
+    <h1>The Real World Is Your Next Marketing Channel</h1>
+    <p>Geia transforms physical spaces into intelligent, phygital touchpoints — where your brand is experienced, scanned, and remembered.</p>
+    <div class="cta-buttons">
+      <a href="#contact">Contact With Us</a>
+    </div>
+  </header>
+
+  <section id="introduction">
+    <h2>Introduction</h2>
+    <p>Geia empowers brands to bypass the saturation of digital ads and build connections in the real world. Our phygital media layers merge tangible brand experiences with digital tracking and conversion — driving results that go beyond impressions.</p>
+
+    <div class="value-highlights">
+      <div class="highlight"><span>⚡</span> Impactful Brand Moments</div>
+      <div class="highlight"><span>🌍</span> Distributed Across Real Environments</div>
+      <div class="highlight"><span>📊</span> QR & Digital Analytics Integration</div>
+      <div class="highlight"><span>🔐</span> Stealth Marketing — Fully Exclusive</div>
+    </div>
+  </section>
+
+  <section id="phygital">
+    <h2>What Is Phygital Media?</h2>
+    <p>Phygital combines Physical + Digital — creating experiences that are interactive, tactile, and trackable. It transforms ordinary spaces into platforms for engagement.</p>
+    <ul>
+      <li>💡 People trust what they touch</li>
+      <li>💭 Physical interaction creates stronger memory</li>
+      <li>🔗 QR/AR bridge physical spaces with digital action</li>
+      <li>⚙️ Conversions happen at the moment of interaction</li>
+    </ul>
+
+    <div class="stats-section">
+      <div class="stat"><span>82%</span> trust physical experiences more than digital ads</div>
+      <div class="stat"><span>65%</span> more likely to scan QR than click banners</div>
+      <div class="stat"><span>91%</span> of digital ads are ignored — physical wins</div>
+    </div>
+
+    <div class="btn-section">
+      <a class="cta-buttons" href="#how">Explore How It Works</a>
+    </div>
+  </section>
+
+  <section id="how">
+    <h2>How It Works: From Idea to Impact</h2>
+    <div class="steps">
+      <div class="step"><strong>Step 1:</strong> Define your audience & context — where are they and how do they feel?</div>
+      <div class="step"><strong>Step 2:</strong> Craft your phygital message for both emotional and digital action.</div>
+      <div class="step"><strong>Step 3:</strong> Deploy across targeted environments — cafes, events, gyms, more.</div>
+      <div class="step"><strong>Step 4:</strong> Monitor real-time analytics — scans, clicks, reach, and conversions.</div>
+    </div>
+    <p style="margin-top: 20px;">Geia handles everything from placement to performance tracking. You focus on your message. We deliver the experience.</p>
+    <div class="btn-section">
+      <a class="cta-buttons" href="#contact">Let's Launch Your Campaign</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Geia</h2>
+    <p>We’re not just a marketing agency. Geia is a medium — redefining how brands show up in the physical world. Founded in stealth mode, we’re building the invisible layer of tomorrow’s attention economy.</p>
+    <p>We believe in real moments, not passive impressions. The future is phygital. Join us in creating it.</p>
+    <div class="btn-section">
+      <a class="cta-buttons" href="#contact">Join the Movement</a>
+      <a class="cta-buttons" href="#contact">Let’s Talk</a>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Geia. All rights reserved.</p>
+  </footer>
+</body>
+</html>
